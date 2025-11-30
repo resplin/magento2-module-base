@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Esplin_Base::base"
+		     title="Esplin Extensions"
+		     module="Esplin_Base"
+		     sortOrder="500"
+		     resource="Esplin_Base::base"
+		/>
+
+		<add id="Esplin_Base::menu"
+		     title="Base"
+		     translate="title"
+		     module="Esplin_Base"
+		     parent="Esplin_Base::base"
+		     sortOrder="10"
+		     resource="Esplin_Base::menu"
+		/>
+	</menu>
+</config>
