@@ -2,8 +2,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
 	<system>
-		<tab id="ecinternet" translate="label" sortOrder="10">
-			<label>EC Internet</label>
+		<tab id="esplin" translate="label" sortOrder="10">
+			<label>Esplin</label>
 		</tab>
 	</system>
 </config>
